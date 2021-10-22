@@ -16,6 +16,23 @@
 .box {
     height: calc(100vh / 5);
     border: 1px solid black;
+    background-color: rgba(255,192,203,255);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pd-2 {
+    padding: 2px;
+}
+
+.box-nested {
+    height: calc(100vh / 5 - 2px);
+    text-align: center;
+    background-color: rgba(240,127,128,255);
 }
 
 .col-xs-1 {
